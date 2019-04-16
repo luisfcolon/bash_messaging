@@ -1,3 +1,7 @@
-# Shell Messagin
+# Shell Messages
 
-Common shell commands to display stdout stuff and things
+I've been coding more shell scripts and wanted to repo to hold on to somne common shell commands to display stdout stuff and things.
+
+## Work in progress
+
+If you want to submit suggesstions or addition, please feel free.
