@@ -3,7 +3,8 @@
 .  colors.sh
 
 echo_header() {
-  echo $bold$put"✔"$reset $green$@$reset
+  echo $purple$bold"---------------[ $@ ]---------------"$reset
+  echo
 }
 
 echo_success() {
