@@ -4,4 +4,4 @@ I've been coding more shell scripts and wanted a repo to hold on to some of the 
 
 ### Work in progress
 
-If you want to submit suggesstions or addition, please feel free.
+If you want to submit suggesstions or additions, please feel free.
