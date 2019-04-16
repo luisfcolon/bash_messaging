@@ -20,7 +20,7 @@ echo_warning() {
 }
 
 echo_info_header() {
-  echo $bold$blue"➜" $@$reset
+  echo $bold$blue"➜"$reset $blue$@$reset
 }
 
 echo_subheader_info() {
