@@ -24,9 +24,9 @@ echo_info_header() {
 }
 
 echo_subheader_info() {
-  echo $blue$bolf"   •"$reset $blue$@$reset
+  echo $blue$bold"   •"$reset $blue$@$reset
 }
 
 echo_info() {
-  echo $blue$bold"•"$rest $blue$@$reset
+  echo $blue$bold"•"$reset $blue$@$reset
 }
