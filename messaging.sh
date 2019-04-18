@@ -19,14 +19,10 @@ echo_warning() {
   echo $bold$yellow"⌀"$reset $yellow$@$reset
 }
 
-echo_info_header() {
-  echo $bold$blue"➜"$reset $blue$@$reset
-}
-
-echo_subheader_info() {
-  echo $blue$bold"   •"$reset $blue$@$reset
-}
-
 echo_info() {
-  echo $blue$bold"•"$reset $blue$@$reset
+  echo $bold$blue"➜"$reset $bold$blue$@$reset
+}
+
+echo_text() {
+  echo $bold$grey"•"$reset $grey$@$reset
 }
