@@ -7,6 +7,10 @@ echo_header() {
   echo
 }
 
+echo_subheader() {
+  echo $bold$blue"➜"$reset $bold$blue$@$reset
+}
+
 echo_success() {
   echo $bold$green"✔"$reset $green$@$reset
 }
@@ -19,10 +23,10 @@ echo_warning() {
   echo $bold$yellow"⌀"$reset $yellow$@$reset
 }
 
-echo_info() {
-  echo $bold$blue"➜"$reset $bold$blue$@$reset
+echo_bullet() {
+  echo $bold$grey"•"$reset $grey$@$reset
 }
 
 echo_text() {
-  echo $bold$grey"•"$reset $grey$@$reset
+  echo $white$@$reset
 }
